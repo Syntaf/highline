@@ -91,6 +91,7 @@ html, body {
 }
 
 .jumbotron .form-inline a {
+    margin-top: 10px;
     color: white;
     display: block;
     letter-spacing: 2px;
