@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header -- begin */
+.header {
+    z-index: 1;
+    background-color: #2457af;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 25px auto 0 auto;
+    width: 90%;
+}
+
+.header a,
+.header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header .row {
+    margin: 20px 0;
+}
+
+.header h1 {
+    display: inline;
+}
+
+.header ul {
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header li {
+    display: inline;
+    padding: 0 15px;
+}
+/* header -- end */
+
+/* jumbotron -- begin */
+.jumbotron {
+    height: 600px;
+    background-image: url("../img/jumbotron2.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    margin-top: 100px;
+}
+
+.jumbotron .form-inline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron .form-inline .form-control {
+    color: white;
+    width: 300px;
+    height: 45px;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.jumbotron .form-inline .btn-default {
+    height: 45px;
+    width: 75px;
+    background-color: #2457af;
+    border-radius: 0;
+    border-style: none;
+    color: white;
+}
+
+.jumbotron .form-inline a {
+    color: white;
+    display: block;
+    letter-spacing: 2px;
+}
