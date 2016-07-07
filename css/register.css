@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../img/switz.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header -- begin */
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header .container {
+    padding: 30px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+/* header -- end */
+
+/* main -- begin */
+.main form {
+    width: 50%;
+    font-size: 16px;
+}
+
+.main label {
+    font-weight: 100;
+}
+
+.main .form-control {
+    border-radius: 0;
+}
+
+.main .btn-default {
+    color: white;
+    border-style: none;
+    border-radius: 0;
+    background-color: #2457af;
+    padding: 10px 15px;
+}
+/* main -- end */
+
+/* footer -- begin */
+.footer {
+    margin-top: 50px;
+}
+
+.footer .container {
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer p {
+    font-size: 12px;
+    margin-top: 15px;
+}
