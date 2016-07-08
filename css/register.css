@@ -28,6 +28,12 @@ body {
 /* header -- end */
 
 /* main -- begin */
+.main a,
+.main a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .main form {
     width: 50%;
     font-size: 16px;

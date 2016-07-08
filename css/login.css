@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    background-color: #2457af;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header -- begin */
+.header {
+    z-index: 1;
+    background-color: #2457af;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+.header a,
+.header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header .row {
+    margin: 10px 0;
+}
+
+.header h1 {
+    display: inline;
+    font-weight: lighter;
+}
+
+.header ul {
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header li {
+    display: inline;
+    padding: 0 15px;
+}
+/* header -- end */
+
+/* main -- begin */
+.main {
+    background-color: white;
+    text-align: center;
+}
+
+.main h1 {
+    padding: 0 30px 10px 30px;
+    display: inline-block;
+    margin-top: 200px;
+    border-bottom: 3px solid black;
+    text-transform: uppercase;
+}
+
+.main form {
+    width: 40%;
+    margin: 30px auto 0 auto;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+.main label {
+    font-size: 18px;
+}
+
+.main .form-control {
+    border-radius: 0;
+    font-size: 16px;
+    height: 40px;
+}
+
+.main .btn-default {
+    padding: 10px 15px;
+    border-radius: 0;
+}
+/* main -- end */
+
+/* footer -- begin */
+.footer {
+    background-color: #2457af;
+    height: 300px;
+}
+
+.footer img {
+    margin-top: 50px;
+}
+/* footer -- end */
