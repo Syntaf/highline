@@ -96,6 +96,11 @@ html, body {
     display: block;
     letter-spacing: 2px;
 }
+
+.jumbotron .form-inline .btn-default{
+    display: inline;
+    padding: 13px 25px;
+}
 /* jumbotron -- end */
 
 /* supporting1 -- begin */
