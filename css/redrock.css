@@ -93,10 +93,31 @@ body {
     height: 65px;
 }
 
-.content .selected {
+/* selected -- begin */
+.selected {
     border: 1px solid black;
     background-color: #eae1e1;
     height: 705px;
+    padding: 0 20px;
+    overflow-y: scroll;
+}
+
+.selected h2, p {
+    display: inline
+}
+
+.selected .row {
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    padding-bottom: 6px;
+}
+
+.selected table td {
+    padding: 2px 15px;
+}
+
+#no-border {
+    border-style: none;
 }
 
 /* footer -- begin */
