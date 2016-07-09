@@ -42,6 +42,7 @@ body {
 .header .form-inline {
     margin-left: 70px;
     display: inline
+    text-align: center;
 }
 
 .header .form-control {
@@ -56,6 +57,7 @@ body {
 .header .btn-default {
     margin-top: 3px;
     border-radius: 0;
+    display: inline;
 }
 
 .header .btn-default {
