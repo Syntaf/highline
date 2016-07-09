@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header -- begin */
+.header {
+    z-index: 1;
+    background-color: #2457af;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+.header a,
+.header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header .row {
+    margin: 10px 0;
+}
+
+.header h1 {
+    display: inline;
+}
+
+.header ul {
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header li {
+    display: inline;
+    padding: 0 15px;
+}
+/* header -- end */
