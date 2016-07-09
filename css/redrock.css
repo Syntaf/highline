@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    background-color: #2457af;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header -- begin */
+.header {
+    z-index: 1;
+    background-color: #2457af;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+.header a,
+.header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header .row {
+    margin: 10px 0;
+}
+
+.header h1 {
+    display: inline;
+}
+
+.header .form-inline {
+    margin-left: 70px;
+    display: inline
+}
+
+.header .form-control {
+    background-color: rgba(0,0,0,0.7);
+    border-style: none;
+    border-radius: 0;
+    font-size: 16px;
+    color: white;
+    width: 250px;
+    margin-top: 3px;
+}
+
+.header .btn-default {
+    margin-top: 3px;
+    border-radius: 0;
+}
+
+.header .btn-default {
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+.header ul {
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header li {
+    display: inline;
+    padding: 0 15px;
+}
+/* header -- end */
+
+/* main -- begin */
+.main {
+    background-color: grey;
+    padding: 100px 50px 50px 50px;
+}
+/* main -- end */
+
+/* content -- begin */
+.content .nav-pills li a {
+    color: white;
+    padding: 10px 25px;
+    border-radius: 0;
+}
+
+.content .nav-pills li.active a,
+.content .nav-pills li.active a:hover {
+    background-color: #2457af;
+    border: 1px solid #2457af;
+}
+
+.content .nav-pills li > a:hover {
+    background-color: rgba(0,0,0,0);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.content .col-md-7 {
+    resize: both;
+    overflow: auto;
+    height: 800px;
+}
+
+.content .col-md-5 h1 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 25px;
+    margin-top: 0;
+    background-color: #eae1e1;
+    height: 65px;
+}
+
+/* selected -- begin */
+.selected {
+    border: 1px solid black;
+    background-color: #eae1e1;
+    height: 705px;
+    padding: 0 20px;
+    overflow-y: scroll;
+}
+
+.selected h2, p {
+    display: inline
+}
+
+.selected .row {
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    padding-bottom: 6px;
+}
+
+.selected table td {
+    padding: 2px 15px;
+}
+
+#no-border {
+    border-style: none;
+}
+
+/* footer -- begin */
+.footer {
+    background-color: #2457af;
+    height: 300px;
+}
+
+.footer img {
+    margin-top: 50px;
+}
+/* footer -- end */

@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    background-color: #2457af;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header -- begin */
+.header {
+    z-index: 1;
+    background-color: #2457af;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+.header a,
+.header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header .row {
+    margin: 10px 0;
+}
+
+.header h1 {
+    display: inline;
+}
+
+.header .form-inline {
+    margin-left: 70px;
+    display: inline
+}
+
+.header .form-control {
+    background-color: rgba(0,0,0,0.7);
+    border-style: none;
+    border-radius: 0;
+    font-size: 16px;
+    color: white;
+    width: 250px;
+    margin-top: 3px;
+}
+
+.header .btn-default {
+    margin-top: 3px;
+    border-radius: 0;
+}
+
+.header .btn-default {
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+.header ul {
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header li {
+    display: inline;
+    padding: 0 15px;
+}
+/* header -- end */
+
+/* jumbotron -- begin */
+.jumbotron {
+    background-image: url("http://placehold.it/1980x1080");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+/* jumbotron -- end */
+
+/* content -- begin */
+.content .container {
+    max-width: 940px;
+}
+
+.content {
+    height: 500px;
+    background-color: white;
+    margin-top: -30px;
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+/* content -- end */
+
+/* footer -- begin */
+.footer {
+    background-color: #2457af;
+    height: 300px;
+}
+
+.footer img {
+    margin-top: 50px;
+}
+/* footer -- end */
