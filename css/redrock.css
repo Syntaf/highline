@@ -15,64 +15,59 @@ body {
 }
 
 /* header -- begin */
-.header {
+.navbar-default {
     z-index: 1;
     background-color: #2457af;
-    color: white;
+    border-radius: 0;
+    border-style: none;
     position: fixed;
     left: 0;
     right: 0;
     margin: 0 auto 0 auto;
+    padding: 10px 30px;
 }
 
-.header a,
-.header a:hover {
+.navbar-header .navbar-brand,
+.navbar-header .navbar-brand:hover {
     color: white;
     text-decoration: none;
+    font-size: 36px;
+    margin-right: 70px;
 }
 
-.header .row {
-    margin: 10px 0;
-}
-
-.header h1 {
-    display: inline;
-}
-
-.header .form-inline {
-    margin-left: 70px;
-    display: inline
-}
-
-.header .form-control {
+.navbar-default .form-control {
     background-color: rgba(0,0,0,0.7);
     border-style: none;
     border-radius: 0;
     font-size: 16px;
     color: white;
-    width: 250px;
-    margin-top: 3px;
+    display: inline;
 }
 
-.header .btn-default {
-    margin-top: 3px;
+.navbar-default .btn-default {
     border-radius: 0;
-}
-
-.header .btn-default {
+    display: inline;
     background-color: rgba(0,0,0,0);
     color: white;
 }
 
-.header ul {
-    margin-top: 10px;
+.navbar-default .navbar-nav {
     list-style: none;
     display: inline-block;
 }
 
-.header li {
+.navbar-default .navbar-nav li {
     display: inline;
-    padding: 0 15px;
+    padding: 0 10px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: white;
+    text-decoration: underline;
 }
 /* header -- end */
 
@@ -148,10 +143,11 @@ body {
 /* footer -- begin */
 .footer {
     background-color: #2457af;
-    height: 300px;
+    color: white;
 }
 
-.footer img {
-    margin-top: 50px;
+.footer .ftable {
+    width: 100%;
+    margin: 25px 0;
 }
 /* footer -- end */

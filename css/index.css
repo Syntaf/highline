@@ -11,39 +11,63 @@ html, body {
 }
 
 /* header -- begin */
-.header {
+.navbar-default {
     z-index: 1;
     background-color: #2457af;
-    color: white;
+    border-radius: 0;
+    border-style: none;
     position: fixed;
     left: 0;
     right: 0;
     margin: 0 auto 0 auto;
+    padding: 10px 30px;
 }
 
-.header a,
-.header a:hover {
+.navbar-header .navbar-brand,
+.navbar-header .navbar-brand:hover {
     color: white;
     text-decoration: none;
+    font-size: 36px;
 }
 
-.header .row {
-    margin: 10px 0;
-}
-
-.header h1 {
-    display: inline;
-}
-
-.header ul {
+.navbar-default .form-inline {
+    display: inline-block;
     margin-top: 10px;
+    margin-left: 100px;
+}
+
+.navbar-default .form-control {
+    background-color: rgba(0,0,0,0.7);
+    border-style: none;
+    border-radius: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar-default .btn-default {
+    border-radius: 0;
+    display: inline;
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+.navbar-default .navbar-nav {
     list-style: none;
     display: inline-block;
 }
 
-.header li {
+.navbar-default .navbar-nav li {
     display: inline;
-    padding: 0 15px;
+    padding: 0 10px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: white;
+    text-decoration: underline;
 }
 /* header -- end */
 
@@ -73,7 +97,8 @@ html, body {
 
 .jumbotron .form-inline .form-control {
     color: white;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 45px;
     font-size: 24px;
     border-style: none;
@@ -83,7 +108,8 @@ html, body {
 
 .jumbotron .form-inline .btn-default {
     height: 45px;
-    width: 75px;
+    max-width: 75px;
+    width: 100%;
     background-color: #2457af;
     border-radius: 0;
     border-style: none;
@@ -129,11 +155,11 @@ html, body {
 .feature1 {
     background-image: url("../img/tryfan-4.jpg");
     background-size: cover;
-    background-position: 0 0;
+    width: 100%;
+    height: 450px;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: auto;
-    height: 450px;
 }
 /* feature1 -- end */
 
@@ -161,9 +187,9 @@ html, body {
 .feature2 {
     background-image: url("../img/cory_highline.jpg");
     background-size: cover;
-    background-position: 0 -100px;
     background-attachment: fixed;
-    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 600px;
     position: relative;
 }
@@ -174,6 +200,8 @@ html, body {
     background-color: rgba(0,0,0,0.5);
     border-radius: 0;
     top: 35%;
+    left: 25%;
+    margin-left: 25px;
     transform: translate(-50%, -50%);
     padding: 15px;
 }
@@ -185,13 +213,24 @@ html, body {
     color: white;
 }
 
-.footer .row {
+.footer .ftable {
+    width: 100%;
     margin: 25px 0;
 }
-
-.footer p {
-    display: inline-block;
-    margin-top: 25px;
-    font-size: 12px;
-}
 /* footer -- end */
+
+@media screen and (max-width: 760px) {
+    .feature2 {
+        height: 300px;
+        background-position: top right;
+    }
+
+    .feature1 {
+        height: 300px;
+        background-position: top left;
+    }
+
+    .jumbotron .form-inline .btn-default {
+        display: none;
+    }
+}
