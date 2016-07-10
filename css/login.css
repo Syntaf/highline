@@ -75,9 +75,10 @@ body {
 .main {
     background-image: url("../img/login.jpg");
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
     text-align: center;
     height: 700px;
+    color: white;
 }
 
 .main h1 {
@@ -97,6 +98,7 @@ body {
 
 .main label {
     font-size: 18px;
+    font-weight: 200;
 }
 
 .main .form-control {
