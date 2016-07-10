@@ -75,7 +75,7 @@ body {
 .main {
     background-image: url("../img/login.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     text-align: center;
     height: 700px;
 }
@@ -110,6 +110,10 @@ body {
 .main .btn-default {
     padding: 10px 15px;
     border-radius: 0;
+}
+
+.main a {
+    color: white;
 }
 /* main -- end */
 
