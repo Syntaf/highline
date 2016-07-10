@@ -81,6 +81,7 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
+    width: 100%;
 }
 
 .main h1 {
