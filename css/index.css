@@ -97,7 +97,8 @@ html, body {
 
 .jumbotron .form-inline .form-control {
     color: white;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 45px;
     font-size: 24px;
     border-style: none;
@@ -107,7 +108,8 @@ html, body {
 
 .jumbotron .form-inline .btn-default {
     height: 45px;
-    width: 75px;
+    max-width: 75px;
+    width: 100%;
     background-color: #2457af;
     border-radius: 0;
     border-style: none;
@@ -226,5 +228,9 @@ html, body {
     .feature1 {
         height: 300px;
         background-position: top left;
+    }
+
+    .jumbotron .form-inline .btn-default {
+        display: none;
     }
 }
