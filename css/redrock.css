@@ -119,7 +119,7 @@ body {
 .selected {
     border: 1px solid black;
     background-color: white;
-    height: 705px;
+    height: 730px;
     padding: 0 20px;
     overflow-y: scroll;
 }
