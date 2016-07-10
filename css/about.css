@@ -106,10 +106,11 @@ body {
 /* footer -- begin */
 .footer {
     background-color: #2457af;
-    height: 300px;
+    color: white;
 }
 
-.footer img {
-    margin-top: 50px;
+.footer .ftable {
+    width: 100%;
+    margin: 25px 0;
 }
 /* footer -- end */
