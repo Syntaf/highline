@@ -212,6 +212,11 @@ html, body {
     color: white;
 }
 
+.footer .ftable {
+    width: 100%;
+    margin: 25px 0;
+}
+/*
 .footer .row {
     margin: 25px 0;
 }
@@ -221,4 +226,11 @@ html, body {
     margin-top: 25px;
     font-size: 12px;
 }
+
+.footer .pull-right img {
+    width: auto;
+    height: auto;
+    display: inline;
+    float: right;
+}*/
 /* footer -- end */
