@@ -153,11 +153,11 @@ html, body {
 .feature1 {
     background-image: url("../img/tryfan-4.jpg");
     background-size: cover;
+    width: 100%;
+    padding-top: 26.7%;
     background-position: 0 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: auto;
-    height: 450px;
 }
 /* feature1 -- end */
 
@@ -188,8 +188,8 @@ html, body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0 0;
-    width: auto;
-    height: 600px;
+    width: 100%;
+    padding-top: 30%;
     position: relative;
 }
 
