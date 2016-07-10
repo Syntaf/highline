@@ -32,12 +32,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 36px;
-}
-
-.navbar-default .form-inline {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 100px;
+    margin-right: 70px;
 }
 
 .navbar-default .form-control {
@@ -46,6 +41,7 @@ body {
     border-radius: 0;
     font-size: 16px;
     color: white;
+    display: inline;
 }
 
 .navbar-default .btn-default {
