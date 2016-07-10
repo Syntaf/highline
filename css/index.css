@@ -185,7 +185,6 @@ html, body {
 .feature2 {
     background-image: url("../img/cory_highline.jpg");
     background-size: cover;
-    background-position: 0 -100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: auto;
