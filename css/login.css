@@ -60,6 +60,13 @@ body {
 .main a {
     color: white;
 }
+
+.main .email-error,
+.main .password-error {
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
 /* main -- end */
 
 @media screen and (max-width: 760px) {

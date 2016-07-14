@@ -23,6 +23,7 @@ html, body {
 }
 
 .jumbotron .container {
+    display: none;
     margin-top: 100px;
 }
 
